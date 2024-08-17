@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+   
+}
+
+.container{
+    width: 80%;
+    margin:  0 auto;
+   
+}
+.img-1{
+    width: 10%px;
+    height: 130px;
+}
+
+.h11{
+    margin-left: 30px;
+}
+
+
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+    padding: 20px;
+    display: none;
+   
+    
+}
+
+.row-122{
+    display: flex;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    /* padding: 10px; */
+    text-align: center;
+    width: 300px;
+    height: 350px;
+}
+
+
+.bur{
+    width: 40px;
+    margin-left: -150px;
+    /* margin-top: 10px; */
+}
+
+.card img {
+    width: 200px;
+    border-radius: 8px;
+    align-items: center;
+   
+
+}
+
+.card h3 {
+    margin: 10px 0;
+    align-items: center;
+}
+
+.card button{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    -webkit-box-shadow: -1px 2px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 7px -1px rgba(0,0,0,0.75);
+    
+}
+
+.card p {
+    color: red;
+    align-items: center;
+}
+.a-1{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    position: absolute;
+    font-size: 15px;
+}
+.a-2{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    
+    font-size: 15px;
+    white-space: nowrap;
+    margin-left: 50px;
+}
+.a-3{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+.a-4{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+   
+}
+
+
+
+.row{
+    display: flex;
+}
+.style{
+    color: red;
+   font-size: 25px;
+   align-items: center;
+ 
+   
+   
+}
+.row-3{
+    display: flex;
+    gap: 40px;
+}
+
+.row-2{
+    display: flex;
+    gap: 90px;
+   
+}
+.row-5{
+    margin-top: -20px;
+}
+
+.p-1{
+    font-size: 13px;
+    /* font-weight: bold; */
+    white-space: nowrap;
+    position: absolute;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+.p-2{
+    font-size: 13px;
+    font-weight: bold;
+    color: red;
+    /* margin-top: -40px; */
+    position: relative;
+    left: -50px;
+    margin-top: 20px;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.row-6{
+    display: flex;
+    gap: 60px;
+}
+
+.world{
+    color: black;
+    font-size: 25px;
+    margin-top: 20px;
+    color: red;
+}
+.row-7{
+    display: flex;
+    gap: 10px;
+}
+
+.p-3{
+    font-size: 13px;
+    /* font-weight: bold; */
+    margin-left: 10px;
+}
+.p-4{
+    font-size: 13px;
+    font-weight: bold;
+    color: red;
+   position: relative;
+   left: -50px;
+  top: 28px;
+}
+
+.img-2{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+   
+}
+.row-10{
+    display: flex;
+    gap: 55px;
+}
+
+
+.row-11{
+    display: flex;
+  
+    
+}
+
+.uz{
+    margin-top: 27px;
+}
+
+.row-12{
+    display: flex;
+    gap: 32px;
+   
+}
+
+.bt-1{
+width: 70px;
+height: 40px;
+margin-top: 17px;
+border: none;
+border-radius: 10px;
+background-color: #e3e2e2;
+}
+.input-1{
+    width: 50%;
+    height: 40px;
+    margin-top: 70px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid rgb(202, 202, 202);
+
+  
+}
+
+.input-1::placeholder{
+   
+    font-size: 16px;
+    position: relative;
+    left: 20px;
+    align-items: center;
+}
+
+.bt-2{
+    height: 40px;
+width: 200px;
+position: absolute;
+margin-left: 790px;
+margin-top: 72px;
+border: none;
+background-color: red;
+color: white;
+font-weight: bold;
+border-radius: 10px;
+
+
+}
+.helo{
+    display: flex;
+   
+}
+
+.row-15{
+    display: flex;
+}
+
+
+.h1-1{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background-color: none;
+    font-size: 30px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    margin:  0 auto;
+   
+   
+}
+
+.con-2{
+    /* width: 80%;
+    margin:  0 auto; */
+    display: flex;
+    /* overflow: scroll; */
+    position: absolute;
+
+    
+}
+
+.a-11{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.katalog{
+    width: 310px;
+    height: 760px;
+    background-color: rgb(237, 236, 236);
+    border-radius: 10px;
+    box-shadow: 0px 15px 17px -5px rgba(0,0,0,0.57);
+-webkit-box-shadow: 0px 15px 17px -5px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 15px 17px -5px rgba(0,0,0,0.57);
+
+
+}
+
+.p-11{
+    font-size: 30px;
+}
+
+.b-1{
+    width: 300px;
+    height: 50px;
+    border: none;
+    position: absolute;
+   
+    border-radius: 10px;
+    transition: 1s;
+   
+    
+  
+
+}
+
+.b-7{
+    width: 300px;
+    height: 50px;
+    border: none;
+    position: absolute;
+   
+    border-radius: 10px;
+    transition: 1s;
+    margin-top: 200px;
+   
+    
+  
+
+}
+
+.b-8{
+    width: 300px;
+    height: 50px;
+    border: none;
+    position: absolute;
+   
+    border-radius: 10px;
+    transition: 1s;
+    margin-top: 265px;
+   
+    
+  
+
+}
+.b-9{
+    width: 300px;
+    height: 50px;
+    border: none;
+    position: absolute;
+   
+    border-radius: 10px;
+    transition: 1s;
+    margin-top: 330px;
+   
+    
+  
+
+}
+.b-10{
+    width: 300px;
+    height: 50px;
+    border: none;
+    position: absolute;
+   
+    border-radius: 10px;
+    transition: 1s;
+    margin-top: 400px;
+   
+    
+  
+
+}
+.h111{
+    margin-top: 
+    -38px;
+    margin-left: 50px;
+}
+
+
+
+
+
+.b-7:hover{
+    box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-webkit-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-moz-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+transition: 1s;
+}
+
+.b-8:hover{
+    box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-webkit-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-moz-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+transition: 1s;
+}
+.b-9:hover{
+    box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-webkit-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-moz-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+transition: 1s;
+}
+.b-10:hover{
+    box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-webkit-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-moz-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+transition: 1s;
+}
+.b-1:hover{
+    box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-webkit-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-moz-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+transition: 1s;
+}
+
+.b-2:hover{
+    box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-webkit-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-moz-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+transition: 1s;
+}
+
+
+.b-3:hover{
+    box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-webkit-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-moz-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+transition: 1s;
+}
+
+
+.b-4:hover{
+    box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-webkit-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-moz-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+transition: 1s;
+}
+
+.b-5:hover{
+    box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-webkit-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-moz-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+transition: 1s;
+}
+
+.b-6:hover{
+    box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-webkit-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+-moz-box-shadow: 1px 8px 17px -5px rgba(0,0,0,0.57);
+transition: 1s;
+}
+
+
+
+.batt{
+    margin-top: 200px;
+    
+}
+
+.h33{
+    margin-top: -28px;
+}
+.b-2{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 70px;
+   
+   
+transition: 1s;
+
+
+}
+
+
+
+.b-6{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 140px;
+   
+transition: 1s;
+
+
+}
+.b-3{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 140px;
+    transition: 1s;
+
+}
+
+
+.b-5{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 70px;
+    
+    transition: 1s;
+
+}
+
+
+.b-4{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    /* margin-top: 140px; */
+    transition: 1s;
+
+}
+.bt-11{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: nowrap;  
+    
+
+   
+    
+}
+
+.brg{
+    width: 20px;
+}
+.row111{
+      display: flex;
+}
+
+.naw-1{
+    background-color: red;
+    width: 310px;
+   border-top-left-radius: 10px ;
+   border-top-right-radius: 10px;
+ 
+}
+
+.katal{
+    color: white;
+}
+.h1-1{
+    margin-top: 70px;
+}
+
+.ste{
+    width: 60px;
+    margin-left: -160px;
+}
+
+.h11{
+    margin-top: -25px;
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 800px;
+}
+
+/* .logo_foot img {
+    /* width: 240px; */
+    /* height: 150px; */
+
+i{
+    color: red;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+ul li a {
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.foot_h {
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+
+.telegram {
+    display: flex;
+    gap: 5px;
+}
+
+.telefon {
+    display: flex;
+    gap: 5px;
+}
+
+.instagram {
+    display: flex;
+    gap: 5px;
+}
+
+.boglanish {
+    display: flex;
+    gap: 40px;
+}
+
+hr {
+    color: rgb(95, 95, 95);
+}
+
+.images{
+    display: flex;
+    gap: 20px;
+}
+.qr{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.oq{
+    background-color: rgb(148, 183, 202);
+    width: 500px;
+    height: 265px;
+    border-radius: 10px;
+}
+.nn{
+    width: 80%;
+    margin:  0 auto;
+    margin-top: 20px;
+}
+.contac{
+    border-radius: 10px;
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <nav>
+            <div class="row">
+              <div class="row-13">
+                <div class="img"><img class="img-1" src="./img/Oqtepa-01.png" alt="img"></div>
+              </div>
+                <ul>
+                    <li>
+                        <div class="row-13">
+                            <a class="a-1" href="./index.html">Menyu</a>
+                            <div class="helo">
+                                <button class="bt-2">Buyurtmani boshlash...</button>
+                            </div>
+                            <input placeholder="Pishloqli tandir lavash..." class="input-1" type="text">
+                        </div>
+                    </li>
+                    <li><a class="a-2" href="./index-3.html">Biz haqimizda</a></li>
+                    <li><a class="a-3" href="./index-4.html">Filialar</a></li>
+                    <div class="row-3">
+                        <li><a class="a-4" href="./index-5.html">Kontaktlar</a></li>
+                        <div class="row-2">
+                           
+                                <a class="style" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                           
+    
+                            
+                            <p class="p-2">Qabul qilish turini tanlang</p>
+                            <p class="p-1">Yetkazib berish yoki olib...</p>
+                      
+    
+                            <div class="row-5">
+                                <div class="row-6">
+                                    
+                                    <div class="row-7">
+                                        <a class="world" href="#"><i class="fa-solid fa-globe"></i></a>
+                                        <p class="p-3">Hudud</p>
+                                        <p class="p-4">Tashkent</p>
+                                        <div class="row-8">
+                                            <div class="row-10">
+                                               
+                                                <div class="row-11">
+                                                    <div class="row-15">
+                                                        <img class="img-2" src="./img/png-transparent-flag-of-uzbekistan-emoji-flag-of-albania-emoji-flag-text-logo-thumbnail-removebg-preview.png" alt="img">
+                                                    </div>
+                                                    <div class="row-12">
+                                                        <p class="uz">UZ</p>
+                                                        <a href="./index-2.html"><button class="bt-1">Kirish</button></a>
+                                                    </div>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <h1>Kontaktlar</h1>
+
+            <div class="images">
+              <img class="contac" src="./img/contacts_img.jpg" alt="img">
+              <div class="oq">
+               <div class="nn">
+                <img  class="qr" src="./img/qr_oqtepa_contact.png" alt="img">
+                <p style="padding:10px 0px 0px 0px;" b-t9kd80x0uz>
+                    "Izoh qoldiring yoki"
+                    <br>
+                    "Telegramda savol bering"
+                    
+                </p>
+
+                <a style="color:white" target="_blank" href="https://t.me/Oqtepalavash_TM" b-t9kd80x0uz>@Oqtepalavash_TM</a>
+               </div>
+              </div>
+                
+            </div>
+
+            <h1>Yagona aloqa markazi <br> +998 97 190 28 00</h1>
+            <h1>Telegram bot <br> /https://t.me/Zahaiii</h1>
+
+</body>
+</html>
